@@ -1,0 +1,125 @@
+/*régler la taille de l'image*/
+body, html {
+  height: 100%;
+  margin: 0;
+  min-height: 885px;
+  min-width: 885px;
+  font-family: Helvetica;
+
+
+}
+/*pour mettre mon image en pleine écran - png*/
+#background {
+  background-image: url("../image/banner4.jpg");
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo
+{
+	height: 100px; 
+	margin: auto;
+}
+
+/*overlay c'est mon carré noir*/
+.overlay {
+	background: rgba(0, 0, 0, 0.8);
+	box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	
+	/*s'adapte à l'écran responsive*/
+	height: 65%;
+	width: 70%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*texte de confirmation de réservation*/
+#confirmation {
+	position: relative;
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 45%;
+	height: 100%;
+}
+/* style de mon texte */
+.confirmation-text {
+	font-family: helvetica;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+/*bouton fermer */
+#lol{
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+	margin-bottom: 75px;
+	transform: translate(-50%, 0%);
+}
+
+#social-container {
+	position: absolute;
+    top: 87%;
+    left: 3%;
+    
+}
+
+#social-header {
+	font-family: helvetica;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 14px;
+	text-align: left;
+
+	color: white;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a:link, a:visited {
+	background: #F24C57;
+	border-radius: 5px;
+	padding: 14px 35px;
+	
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.right 
+{
+  background-color: none;
+  color: black;
+  padding: 14px 25px;
+  text-align: right;
+  text-decoration: none;
+  margin-top: ;
+}
+
+.picto1
+{
+	width: 35px;
+	height: 35px;
+}
+
+li {
+	display: inline;
+	margin:20px;
+	color: black;
+	font-size:18px;
+}
+
+.social{
+	width: 100px;
+	height: 30px;
+}

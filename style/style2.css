@@ -1,0 +1,182 @@
+h2 {
+  color: black;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+h1{
+	color: white;
+	font-size: 55px;
+	font-family: Helvetica;
+}
+
+p{
+	color: black;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+
+body{
+	text-align: justify;
+	text-decoration: none;
+	background-color: #F7F5EA;
+	margin: 0px;
+	font-weight: lighter;
+	font-family: helvetica;
+}
+
+.logo
+{
+	width: 70px;
+	height: 70px;
+	left: 768px;
+	top: 50px;
+	margin-top: 200px;
+}
+.card
+{
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;  
+	display: flex                      /* Small radius */
+	margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+
+.card1
+{
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;  
+	display: flex                      /* Small radius */
+	margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+.card2
+{
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;  
+	display: flex                      /* Small radius */
+	margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.avatar
+{
+	width: 74.67px;
+	height: 75px;
+	left: 768px;
+	top: 119px;
+	drop-shadow:grey;
+	border-radius: 50%
+	
+
+
+}
+
+.deco
+{
+	width: 295.48px;
+	height: 204px;
+	left: 524px;
+	top: 137px;
+	margin-left: -400px;
+	border-radius: 5px;
+}
+
+.deco1
+{
+	width: 295.48px;
+	height: 204px;
+	left: 524px;
+	margin-top: 110px;
+	margin-left: -400px;
+	border-radius: 5px;
+}
+
+.deco2
+{
+	width: 295.48px;
+	height: 204px;
+	left: 524px;
+	margin-top: 110px;
+	margin-left: -400px;
+	border-radius: 5px;
+}
+
+.container{
+	display: flex;
+	font-size: 48px;
+}
+
+.left {
+	width: 30%;
+	background-color: #f24c57;
+	text-align:center;
+	height: 980px;
+	font-weight: bolder;
+}
+
+.cards {
+	width: 70%;	
+	text-align: center;
+
+}
+
+.right1
+{
+	margin-left: 400px;
+	height: -500px;
+	margin-top: -200px;
+	text-align: justify;
+	padding-right: 100px;
+}
+
+
+.right2
+{
+	margin-left: 400px;
+	height: -500px;
+	margin-top: -200px;
+	text-align: justify;
+	box-sizing: 60px 500px;
+
+}
+
+
+.pf
+{
+	list-style-type: none;
+	color: black;
+	font-size: 28px;
+	font-family: Helvetica;
+	
+}
+
+.right
+{
+  background-color: none;
+  color: black;
+  text-align: right;
+  text-decoration: none;
+}
+
+.picto1
+{
+	width: 35px;
+	height: 35px;
+}
+
+.left ul {
+	list-style-type: none; 
+}
+
+.right li {
+	display: inline;
+	margin:20px;
+	font-size:18px;
+}
+
+.right ul{
+	margin: 10px 10px;
+}
