@@ -1,0 +1,80 @@
+head {
+	color: red;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+body {
+	color: rgb(120, 120, 120);  /* medium grey */
+	font-size: 20px;
+	font-family: Helvetica;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px grey; /* horizontal-shift vertical-shift blur color */
+  margin-top: 300px;
+}
+
+
+a:hover, a:active {
+  background-color: red;
+} 
+
+
+/* comment */
+
+li {
+	display: inline;
+	margin:20px;
+	color: white;
+	font-size:18px;
+}
+li:hover, li:active {
+  background-color: grey;
+} 
+/*body {
+  background-image: url("images/banner.jpg");
+}*/
+
+.banner {
+  	/*background-image: url('https://images.unsplash.com/photo-1543791946-ef3afd7acd4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2516&q=80');*/
+  	background-image: url('../images/banner.jpg');  
+
+  	height: 100vh; 
+	background-size: cover;
+	po     
+	
+}
+
+
+.right 
+{
+  background-color: none;
+  color: black;
+  padding: 14px 25px;
+  text-align: right;
+  text-decoration: none;
+ 
+  margin-top: ;
+}
+
+
+
+
+
+
+
+
+
+
